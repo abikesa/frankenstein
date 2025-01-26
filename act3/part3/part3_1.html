@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -15,53 +15,51 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'act3/part3/part3_1';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
@@ -77,19 +75,23 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
   
   <div class="search-button__wrapper">
     <div class="search-button__overlay"></div>
@@ -111,12 +113,20 @@ const thebe_selector_output = ".output, .cell_output"
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
+      
+      
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -131,9 +141,13 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
+  
+    
   
 
 <a class="navbar-brand logo" href="../../index.html">
+  
   
   
   
@@ -143,12 +157,23 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="https://www.usatoday.com/gcdn/-mm-/6be45a9c4066fa9e9596b5b3fd70e7d25bc32546/c=60-0-1860-2400/local/-/media/USATODAY/GenericImages/2014/01/22//1390446683000-KARLOFF-FRANKENSTEIN-TIGHT-2851305.JPG?width=600&height=800&fit=crop&format=pjpg&auto=webp" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="https://www.usatoday.com/gcdn/-mm-/6be45a9c4066fa9e9596b5b3fd70e7d25bc32546/c=60-0-1860-2400/local/-/media/USATODAY/GenericImages/2014/01/22//1390446683000-KARLOFF-FRANKENSTEIN-TIGHT-2851305.JPG?width=600&height=800&fit=crop&format=pjpg&auto=webp" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="https://www.usatoday.com/gcdn/-mm-/6be45a9c4066fa9e9596b5b3fd70e7d25bc32546/c=60-0-1860-2400/local/-/media/USATODAY/GenericImages/2014/01/22//1390446683000-KARLOFF-FRANKENSTEIN-TIGHT-2851305.JPG?width=600&height=800&fit=crop&format=pjpg&auto=webp" class="logo__image only-light" alt="Frankenstein - Home"/>
+    <script>document.write(`<img src="https://www.usatoday.com/gcdn/-mm-/6be45a9c4066fa9e9596b5b3fd70e7d25bc32546/c=60-0-1860-2400/local/-/media/USATODAY/GenericImages/2014/01/22//1390446683000-KARLOFF-FRANKENSTEIN-TIGHT-2851305.JPG?width=600&height=800&fit=crop&format=pjpg&auto=webp" class="logo__image only-dark" alt="Frankenstein - Home"/>`);</script>
   
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -159,45 +184,45 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../act1/part1.html">Speculative</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../act1/part1.html">Speculative</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../act1/chapter1.html">Bayesian Prior</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../act1/chapter2.html">Likelihood</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../act1/chapter3.html">Synthesis</a></li>
 </ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../act2/part2.html">Firm</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../act2/part2.html">Firm</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../act2/chapter1.html">Persona</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../act2/chapter2.html">Shadow</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../act2/chapter3.html">Individuation</a></li>
 
 </ul>
-</li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../part3.html">Tactical</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2 has-children"><a class="reference internal" href="../act1.html">Weaponized 🌊</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../part3.html">Tactical</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act1.html">Weaponized 🌊</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../part1/part1_1.html">Cosmic</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="../part1/part1_2.html">Uncertainty</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../part1/part1_3.html">Failure</a></li>
 
 </ul>
-</li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../act2.html">Tokenized ⚓️</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act2.html">Tokenized ⚓️</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../part2/part2_1.html">Base</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="../part2/part2_2.html">Risk</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="../part2/part2_3.html">Student ☔️</a></li>
 </ul>
-</li>
-<li class="toctree-l2 current active has-children"><a class="reference internal" href="../act3.html">Monopolized 🧭</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+</details></li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="../act3.html">Monopolized 🧭</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l3 current active"><a class="current reference internal" href="#">Notification</a></li>
 <li class="toctree-l3"><a class="reference internal" href="part3_2.html">Transformation</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="part3_3.html">Feedback</a></li>
 </ul>
-</li>
+</details></li>
 </ul>
-</li>
+</details></li>
 <li class="toctree-l1"><a class="reference internal" href="../../bibliography.html">Sound</a></li>
 </ul>
 
@@ -214,7 +239,7 @@ const thebe_selector_output = ".output, .cell_output"
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -223,14 +248,14 @@ const thebe_selector_output = ".output, .cell_output"
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -255,14 +280,14 @@ const thebe_selector_output = ".output, .cell_output"
       
       <li><a href="https://mybinder.org/v2/gh/abikesa/template/main?urlpath=tree/book/website/act3/part3/part3_1.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
-   title="Launch onBinder"
+   title="Launch on Binder"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
   
-    <img src="../../_static/images/logo_binder.svg">
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
   </span>
 <span class="btn__text-container">Binder</span>
 </a>
@@ -336,26 +361,28 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
   </button>
 `);
 </script>
 
+
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -392,35 +419,35 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="resource">
-<span id="id1"></span><h1>Resource<a class="headerlink" href="#resource" title="Permalink to this headline">#</a></h1>
+<span id="id1"></span><h1>Resource<a class="headerlink" href="#resource" title="Permalink to this heading">#</a></h1>
 <p>Christianity and Islam dominate the world in numbers, geography, and cultural influence largely because of their universalizing nature. Unlike many other religions, they transcend ethnic, linguistic, and geographic boundaries. This universalism is not accidental—it reflects a deep structural evolution from earlier religious systems, one that can be understood through the lens of compression in a neural network. By tracing the development of religious ideas as a sequence of compressed layers in such a network, we can reveal the profound advantages these faiths provide for human cognition, society, and commerce.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MTs5AVcArMs?start=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figure class="align-default" id="id2">
 <a class="reference internal image-reference" href="act3/figures/blanche.*"><img alt="act3/figures/blanche.*" src="act3/figures/blanche.*" style="width: 1px; height: 1px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 27 </span><span class="caption-text"><em>Akia Kurasawa: Why Can’t People Be Happy Together?</em> This was a fork in the road for human civilization. Our dear planet earth now becomes just but an optional resource on which we jostle for resources. By expanding to Mars, the jostle reduces for perhaps a couple of centuries of millenia. There need to be things that inspire you. Things that make you glad to wake up in the morning and say “I’m looking forward to the future.” And until then, we have gym and coffee – or perhaps gin &amp; juice. We are going to have a golden age. One of the American values that I love is optimism. We are going to make the future good.</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 35 </span><span class="caption-text"><em>Akia Kurasawa: Why Can’t People Be Happy Together?</em> This was a fork in the road for human civilization. Our dear planet earth now becomes just but an optional resource on which we jostle for resources. By expanding to Mars, the jostle reduces for perhaps a couple of centuries of millenia. There need to be things that inspire you. Things that make you glad to wake up in the morning and say “I’m looking forward to the future.” And until then, we have gym and coffee – or perhaps gin &amp; juice. We are going to have a golden age. One of the American values that I love is optimism. We are going to make the future good.</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <section id="polytheism-as-the-input-layer">
-<h2>Polytheism as the Input Layer<a class="headerlink" href="#polytheism-as-the-input-layer" title="Permalink to this headline">#</a></h2>
+<h2>Polytheism as the Input Layer<a class="headerlink" href="#polytheism-as-the-input-layer" title="Permalink to this heading">#</a></h2>
 <p>The first layer of this metaphorical neural network is polytheism, characterized by its expansive and decentralized structure. Polytheistic religions often mapped human emotions, desires, and fears onto a multiplicity of gods, each representing a specific domain—harvest, war, fertility, the sea. This diversity allowed early humans to relate directly to aspects of their lives, creating highly localized and culturally specific frameworks of worship. However, the trade-off for this granularity was fragmentation. Polytheism struggled to scale; gods remained tied to ethnic or regional identities, making broader societal integration or cross-cultural trade difficult.</p>
 </section>
 <section id="monotheism-the-yellow-node-of-compression">
-<h2>Monotheism: The Yellow Node of Compression<a class="headerlink" href="#monotheism-the-yellow-node-of-compression" title="Permalink to this headline">#</a></h2>
+<h2>Monotheism: The Yellow Node of Compression<a class="headerlink" href="#monotheism-the-yellow-node-of-compression" title="Permalink to this heading">#</a></h2>
 <p>The compression of polytheism into monotheism is one of the most radical shifts in human thought, akin to reducing a neural network’s complexity by collapsing many nodes into one dominant node. This single node, God, becomes the repository for all human projections—emotional, psychological, and existential. Monotheism simplifies the divine hierarchy and unifies disparate communities under one ultimate authority, offering a universal framework for meaning.</p>
 <p>Christianity and Islam emerge as particularly powerful examples of this compression. In Christianity, Jesus famously invites followers to “cast your burdens onto me.” This is the ultimate act of compression, absorbing all human fears, sins, and uncertainties into a singular divine relationship. Similarly, Islam’s emphasis on <em>tawhid</em> (the oneness of God) reinforces this unifying principle, providing clarity and focus in the spiritual realm.</p>
 <p>This compression not only simplifies the divine but also offers psychological relief. No longer does one have to appease multiple gods or navigate competing rituals. Instead, monotheism provides a singular, all-encompassing answer to life’s uncertainties, making it profoundly attractive, especially in times of social or economic upheaval.</p>
 </section>
 <section id="the-moral-binary-a-second-layer-of-simplification">
-<h2>The Moral Binary: A Second Layer of Simplification<a class="headerlink" href="#the-moral-binary-a-second-layer-of-simplification" title="Permalink to this headline">#</a></h2>
+<h2>The Moral Binary: A Second Layer of Simplification<a class="headerlink" href="#the-moral-binary-a-second-layer-of-simplification" title="Permalink to this heading">#</a></h2>
 <p>With the advent of monotheism comes the emergence of a moral binary: good versus evil. This clarity further consolidates the framework, providing a powerful basis for laws, ethics, and social cohesion. Both Christianity and Islam excel in establishing clear moral guidelines that appeal to human needs for justice and fairness. The Ten Commandments or the Sharia serve not just as religious edicts but as foundational structures for societal order.</p>
 <p>However, this binary begins to reveal its limits as societies grow more complex. People interact not only within their immediate communities but across diverse cultures and economies. At this point, the need for nuance arises, and the third layer of the neural network begins to form.</p>
 </section>
 <section id="generative-layer-transactions-and-conditional-trust">
-<h2>Generative Layer: Transactions and Conditional Trust<a class="headerlink" href="#generative-layer-transactions-and-conditional-trust" title="Permalink to this headline">#</a></h2>
+<h2>Generative Layer: Transactions and Conditional Trust<a class="headerlink" href="#generative-layer-transactions-and-conditional-trust" title="Permalink to this heading">#</a></h2>
 <p>In the generative layer, the rigid moral binaries of the previous stage begin to soften, allowing for interactions based on mutual benefit rather than absolute trust or enmity. Commerce, trade, and diplomacy flourish under this framework. Here, the contributions of Christianity and Islam to global trade become evident. Both religions provided the ethical and legal structures necessary to facilitate commerce across vast distances. Islamic finance, with its prohibition of usury, and Christian missionary networks, which often accompanied European traders, are examples of how these religions supported economic activity.</p>
 <blockquote>
 <div><p><em>Rubio, the first of Trump’s Cabinet nominees to win Senate confirmation and take office, said in a mission statement that all U.S. spending and efforts on foreign affairs “must be justified with the answer to three simple questions: Does it make America safer (cooperative)? Does it make America stronger (adversarial)? Does it make America more prosperous (transactional)?”</em><br />
@@ -429,16 +456,16 @@ document.write(`
 <p>By moving from token-based, localized interactions to broader systems of conditional trust, these religions created frameworks for transactional relationships that transcended ethnic and cultural boundaries. A Muslim trader in West Africa could confidently engage with a fellow Muslim in the Arabian Peninsula, knowing they shared the same moral and legal principles. Similarly, Christian communities across Europe and beyond found cohesion in shared values and institutions.</p>
 </section>
 <section id="the-fifth-layer-the-emotional-spectrum-and-emergent-freedom">
-<h2>The Fifth Layer: The Emotional Spectrum and Emergent Freedom<a class="headerlink" href="#the-fifth-layer-the-emotional-spectrum-and-emergent-freedom" title="Permalink to this headline">#</a></h2>
+<h2>The Fifth Layer: The Emotional Spectrum and Emergent Freedom<a class="headerlink" href="#the-fifth-layer-the-emotional-spectrum-and-emergent-freedom" title="Permalink to this heading">#</a></h2>
 <p>In the final layer of the network, human emotions and societal structures interact in their most sophisticated forms. Here, religions like Christianity and Islam demonstrate their ability to encompass the full spectrum of human experience. From the stability offered by ritual and tradition to the volatility of religious fervor, these faiths provide pathways for both individual and collective expression.</p>
 <p>The central node in this layer—freedom—is represented by the concept of “dancing in chains.” This metaphor captures the paradoxical liberation found within religious discipline. By adhering to the tenets of Christianity or Islam, individuals often report feeling a profound sense of freedom, as if their spiritual constraints provide the structure necessary for creative and emotional fulfillment.</p>
 </section>
 <section id="the-provincial-nature-of-other-religions">
-<h2>The Provincial Nature of Other Religions<a class="headerlink" href="#the-provincial-nature-of-other-religions" title="Permalink to this headline">#</a></h2>
+<h2>The Provincial Nature of Other Religions<a class="headerlink" href="#the-provincial-nature-of-other-religions" title="Permalink to this heading">#</a></h2>
 <p>In contrast, religions like Hinduism, Buddhism, and Confucianism often remain tied to specific cultural or geographic contexts. While Buddhism has spread widely, its diffusion often involves significant localization, adapting to the cultures of China, Japan, and Southeast Asia in ways that fragment its universal appeal. Hinduism remains deeply rooted in Indian identity, with its pantheon and rituals closely tied to the subcontinent’s history and social structures. Confucianism, while influential, operates more as a philosophy of governance and ethics than a universal religion, limiting its spiritual resonance across diverse populations.</p>
 </section>
 <section id="the-role-of-compression-in-dominance">
-<h2>The Role of Compression in Dominance<a class="headerlink" href="#the-role-of-compression-in-dominance" title="Permalink to this headline">#</a></h2>
+<h2>The Role of Compression in Dominance<a class="headerlink" href="#the-role-of-compression-in-dominance" title="Permalink to this heading">#</a></h2>
 <p>The dominance of Christianity and Islam can ultimately be attributed to their ability to compress complex systems of thought into universal frameworks. This compression makes them adaptable and scalable, capable of resonating with diverse populations while providing robust structures for societal organization. By uniting emotional, ethical, and economic dimensions, these religions create a comprehensive system that supports both individual fulfillment and collective progress.</p>
 <p>Their universality is not just a product of theology but a reflection of their ability to integrate layers of human experience into a cohesive whole. From the localized gods of polytheism to the expansive frameworks of commerce and civilization, Christianity and Islam represent a culmination of religious evolution—a neural network refined over centuries to meet the needs of an interconnected world.</p>
 <div class="cell tag_hide-input docutils container">
@@ -526,7 +553,7 @@ document.write(`
 <figure class="align-default" id="id3">
 <a class="reference internal image-reference" href="../../_images/blanche.png"><img alt="../../_images/blanche.png" src="../../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 28 </span><span class="caption-text"><strong>Hope. By Pope Francis with Carlo Musso. Translated by Richard Dixon. Random House; 320 pages; $32. Viking; £25</strong> His Holiness Pope Francis—the 266th bishop of Rome, supreme pontiff of the Universal Church, sovereign of the Vatican City State—is a man with fancy titles, a simple soul and simpler prose. He likes punctuality (“I like punctuality”), does not feel worthy (“I feel unworthy”) and thinks war is stupid (“War is stupid”)… The <a class="reference external" href="https://www.economist.com/culture/2025/01/23/sex-drugs-or-chastity">very best autobiographies</a> do more: they take the humdrum daily detail of life, fillet, shape it and so, says Mr Douglas-Fairhurst, “redeem all that chaos”. The pope’s biography does not do this. It gives the reader a mass of detail: trousers, pizza, his parents’ first address. But it does nothing with this. As a result, this biography of a pope offers, ironically, no redemption—and precious little sense of the man himself. The devil, as always, is in the details. The pope, alas, is not.</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 36 </span><span class="caption-text"><strong>Hope. By Pope Francis with Carlo Musso. Translated by Richard Dixon. Random House; 320 pages; $32. Viking; £25</strong> His Holiness Pope Francis—the 266th bishop of Rome, supreme pontiff of the Universal Church, sovereign of the Vatican City State—is a man with fancy titles, a simple soul and simpler prose. He likes punctuality (“I like punctuality”), does not feel worthy (“I feel unworthy”) and thinks war is stupid (“War is stupid”)… The <a class="reference external" href="https://www.economist.com/culture/2025/01/23/sex-drugs-or-chastity">very best autobiographies</a> do more: they take the humdrum daily detail of life, fillet, shape it and so, says Mr Douglas-Fairhurst, “redeem all that chaos”. The pope’s biography does not do this. It gives the reader a mass of detail: trousers, pizza, his parents’ first address. But it does nothing with this. As a result, this biography of a pope offers, ironically, no redemption—and precious little sense of the man himself. The devil, as always, is in the details. The pope, alas, is not.</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -557,11 +584,10 @@ document.write(`
 
               
               
-                <footer class="bd-footer-article">
+              
+              
+                <footer class="prev-next-footer d-print-none">
                   
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="../act3.html"
@@ -581,10 +607,7 @@ document.write(`
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -592,6 +615,7 @@ document.write(`
             
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
@@ -623,6 +647,7 @@ document.write(`
   
   <div class="footer-item">
     
+
   </div>
   
   <div class="footer-item">
@@ -646,8 +671,8 @@ document.write(`
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
