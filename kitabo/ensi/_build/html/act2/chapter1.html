@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -15,53 +15,51 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'act2/chapter1';</script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -77,19 +75,23 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
   
   <div class="search-button__wrapper">
     <div class="search-button__overlay"></div>
@@ -111,12 +113,20 @@ const thebe_selector_output = ".output, .cell_output"
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
+      
+      
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -131,9 +141,13 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
+  
+    
   
 
 <a class="navbar-brand logo" href="../index.html">
+  
   
   
   
@@ -143,12 +157,23 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="https://www.usatoday.com/gcdn/-mm-/6be45a9c4066fa9e9596b5b3fd70e7d25bc32546/c=60-0-1860-2400/local/-/media/USATODAY/GenericImages/2014/01/22//1390446683000-KARLOFF-FRANKENSTEIN-TIGHT-2851305.JPG?width=600&height=800&fit=crop&format=pjpg&auto=webp" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="https://www.usatoday.com/gcdn/-mm-/6be45a9c4066fa9e9596b5b3fd70e7d25bc32546/c=60-0-1860-2400/local/-/media/USATODAY/GenericImages/2014/01/22//1390446683000-KARLOFF-FRANKENSTEIN-TIGHT-2851305.JPG?width=600&height=800&fit=crop&format=pjpg&auto=webp" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="https://www.usatoday.com/gcdn/-mm-/6be45a9c4066fa9e9596b5b3fd70e7d25bc32546/c=60-0-1860-2400/local/-/media/USATODAY/GenericImages/2014/01/22//1390446683000-KARLOFF-FRANKENSTEIN-TIGHT-2851305.JPG?width=600&height=800&fit=crop&format=pjpg&auto=webp" class="logo__image only-light" alt="Frankenstein - Home"/>
+    <script>document.write(`<img src="https://www.usatoday.com/gcdn/-mm-/6be45a9c4066fa9e9596b5b3fd70e7d25bc32546/c=60-0-1860-2400/local/-/media/USATODAY/GenericImages/2014/01/22//1390446683000-KARLOFF-FRANKENSTEIN-TIGHT-2851305.JPG?width=600&height=800&fit=crop&format=pjpg&auto=webp" class="logo__image only-dark" alt="Frankenstein - Home"/>`);</script>
   
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -159,45 +184,45 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../act1/part1.html">Speculative</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../act1/part1.html">Speculative</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../act1/chapter1.html">Bayesian Prior</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../act1/chapter2.html">Likelihood</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../act1/chapter3.html">Synthesis</a></li>
 </ul>
-</li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="part2.html">Firm</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="part2.html">Firm</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Persona</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter2.html">Shadow</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter3.html">Individuation</a></li>
 
 </ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../act3/part3.html">Tactical</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act1.html">Weaponized 🌊</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../act3/part3.html">Tactical</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act1.html">Weaponized 🌊</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../act3/part1/part1_1.html">Cosmic</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="../act3/part1/part1_2.html">Uncertainty</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../act3/part1/part1_3.html">Failure</a></li>
 
 </ul>
-</li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act2.html">Tokenized ⚓️</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act2.html">Tokenized ⚓️</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../act3/part2/part2_1.html">Base</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="../act3/part2/part2_2.html">Risk</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="../act3/part2/part2_3.html">Student ☔️</a></li>
 </ul>
-</li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act3.html">Monopolized 🧭</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act3.html">Monopolized 🧭</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../act3/part3/part3_1.html">Notification</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../act3/part3/part3_2.html">Transformation</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="../act3/part3/part3_3.html">Feedback</a></li>
 </ul>
-</li>
+</details></li>
 </ul>
-</li>
+</details></li>
 <li class="toctree-l1"><a class="reference internal" href="../bibliography.html">Sound</a></li>
 </ul>
 
@@ -214,7 +239,7 @@ const thebe_selector_output = ".output, .cell_output"
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -223,14 +248,14 @@ const thebe_selector_output = ".output, .cell_output"
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -255,14 +280,14 @@ const thebe_selector_output = ".output, .cell_output"
       
       <li><a href="https://mybinder.org/v2/gh/abikesa/template/main?urlpath=tree/book/website/act2/chapter1.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
-   title="Launch onBinder"
+   title="Launch on Binder"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
   
-    <img src="../_static/images/logo_binder.svg">
+    <img alt="Binder logo" src="../_static/images/logo_binder.svg">
   </span>
 <span class="btn__text-container">Binder</span>
 </a>
@@ -336,26 +361,28 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
   </button>
 `);
 </script>
 
+
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -393,32 +420,32 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="cunning-strategy">
-<h1>Cunning Strategy<a class="headerlink" href="#cunning-strategy" title="Permalink to this headline">#</a></h1>
+<h1>Cunning Strategy<a class="headerlink" href="#cunning-strategy" title="Permalink to this heading">#</a></h1>
 <p>When a technology emerges with lower costs—environmental, token-based, or otherwise—and matches the quality of its expensive competitors, it creates a profound potential for systemic inversion. Here’s how the network you provided elucidates this transformation:</p>
 <section id="world-layer-initial-forces-of-compression">
-<h2><strong>1. World Layer: Initial Forces of Compression</strong><a class="headerlink" href="#world-layer-initial-forces-of-compression" title="Permalink to this headline">#</a></h2>
+<h2><strong>1. World Layer: Initial Forces of Compression</strong><a class="headerlink" href="#world-layer-initial-forces-of-compression" title="Permalink to this heading">#</a></h2>
 <p>The “World” layer, particularly nodes like “Cosmos-Entropy” and “Cartel-Ends,” highlights the tension between natural scarcity and artificially imposed scarcity. A low-cost technology disrupts “Cartel-Ends,” where monopolistic or cartel dynamics no longer justify extracting high tokens (economic or ecological) due to cost parity. This technology challenges entrenched systems designed to maintain token scarcity, destabilizing the “Cosmos-Entropy” status quo that capitalizes on controlled inefficiency.</p>
 </section>
 <section id="perception-layer-ledger-of-value">
-<h2><strong>2. Perception Layer: Ledger of Value</strong><a class="headerlink" href="#perception-layer-ledger-of-value" title="Permalink to this headline">#</a></h2>
+<h2><strong>2. Perception Layer: Ledger of Value</strong><a class="headerlink" href="#perception-layer-ledger-of-value" title="Permalink to this heading">#</a></h2>
 <p>The “Perception-Ledger” is a yellow node indicating a shift in judgment. Society’s collective perception of value adjusts rapidly when a technology disrupts traditional costs. The ledger now begins favoring the new technology, as consumers and institutions reevaluate where they assign trust and tokens. This is where technology gains its moral and practical justification, akin to a “Judgment Day” moment in reshuffling priorities.</p>
 </section>
 <section id="agency-layer-power-dynamics">
-<h2><strong>3. Agency Layer: Power Dynamics</strong><a class="headerlink" href="#agency-layer-power-dynamics" title="Permalink to this headline">#</a></h2>
+<h2><strong>3. Agency Layer: Power Dynamics</strong><a class="headerlink" href="#agency-layer-power-dynamics" title="Permalink to this heading">#</a></h2>
 <p>The emergence of this technology engages the “Agency” layer nodes, “Open-Nomiddleman” and “Closed-Trusted.” A low-cost innovation often aligns with “Open-Nomiddleman,” bypassing gatekeepers and empowering individuals or smaller entities. By contrast, traditional systems rely on “Closed-Trusted” pathways, where monopolistic structures justify trust through their control over resources. Here, the balance tilts toward open systems, empowering decentralized adoption.</p>
 <iframe width="100%" height="500px" src="https://www.youtube.com/embed/MozJ43LMR6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figure class="align-default" id="id1">
 <a class="reference internal image-reference" href="../_images/blanche.png"><img alt="../_images/blanche.png" src="../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 8 </span><span class="caption-text"><em>Competition (Generativity) &amp; Feedback (Exertion)</em>. The massive combinatorial search space and optimized emergent behavioral from “games” among the gods, animals, and machines are the way evolution has worked from the beginning of time. Peterson believes reinforcement learning through human feedback (RLHF- a post-training twitch) removes this evolutionary imperative.</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 11 </span><span class="caption-text"><em>Competition (Generativity) &amp; Feedback (Exertion)</em>. The massive combinatorial search space and optimized emergent behavioral from “games” among the gods, animals, and machines are the way evolution has worked from the beginning of time. Peterson believes reinforcement learning through human feedback (RLHF- a post-training twitch) removes this evolutionary imperative.</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="generative-layer-compression-of-market-forces">
-<h2><strong>4. Generative Layer: Compression of Market Forces</strong><a class="headerlink" href="#generative-layer-compression-of-market-forces" title="Permalink to this headline">#</a></h2>
+<h2><strong>4. Generative Layer: Compression of Market Forces</strong><a class="headerlink" href="#generative-layer-compression-of-market-forces" title="Permalink to this heading">#</a></h2>
 <p>This layer captures the transformative friction:</p>
 <ul class="simple">
 <li><p><strong>“Ratio-Weaponized”</strong>: Traditional systems weaponize pricing ratios to maintain competitive edges. A lower-cost equivalent nullifies this strategy, compressing power hierarchies.</p></li>
@@ -427,7 +454,7 @@ document.write(`
 </ul>
 </section>
 <section id="physical-layer-manifested-values">
-<h2><strong>5. Physical Layer: Manifested Values</strong><a class="headerlink" href="#physical-layer-manifested-values" title="Permalink to this headline">#</a></h2>
+<h2><strong>5. Physical Layer: Manifested Values</strong><a class="headerlink" href="#physical-layer-manifested-values" title="Permalink to this heading">#</a></h2>
 <p>The physical layer embodies the societal response to these disruptions:</p>
 <ul class="simple">
 <li><p><strong>“Volatile-Revolutionary”</strong>: The new technology sparks volatility as industries resist change, engaging in price wars or lobbying to maintain dominance.</p></li>
@@ -439,12 +466,12 @@ document.write(`
 <figure class="align-default" id="id2">
 <a class="reference internal image-reference" href="../_images/blanche.png"><img alt="../_images/blanche.png" src="../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 9 </span><span class="caption-text"><em>Competition (Generativity) &amp; Feedback (Exertion)</em>. The massive combinatorial search space and optimized emergent behavioral from “games” among the gods, animals, and machines are the way evolution has worked from the beginning of time. Peterson believes reinforcement learning through human feedback (RLHF- a post-training twitch) removes this evolutionary imperative.</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text"><em>Competition (Generativity) &amp; Feedback (Exertion)</em>. The massive combinatorial search space and optimized emergent behavioral from “games” among the gods, animals, and machines are the way evolution has worked from the beginning of time. Peterson believes reinforcement learning through human feedback (RLHF- a post-training twitch) removes this evolutionary imperative.</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="conclusion-inversion-as-transformation">
-<h2><strong>Conclusion: Inversion as Transformation</strong><a class="headerlink" href="#conclusion-inversion-as-transformation" title="Permalink to this headline">#</a></h2>
+<h2><strong>Conclusion: Inversion as Transformation</strong><a class="headerlink" href="#conclusion-inversion-as-transformation" title="Permalink to this heading">#</a></h2>
 <p>Your network, with its layered dynamics, showcases how a low-cost technology does more than disrupt; it inverts the hierarchy. It compresses inefficiencies (e.g., cartel power, monopolistic odds), shifts societal values (Perception-Ledger), and reshapes the balance between open and closed systems (Agency). Eventually, this inversion consolidates into new standards that redefine the landscape, enabling broader access and sustainability without sacrificing quality.</p>
 <p>This process isn’t frictionless; it incites volatility and resistance at multiple layers. But in the long run, it fosters a reweighting of resources toward systems that align with ecological, economic, and societal resilience—capturing the ethos of “Freedom-Dance in Chains” as a transitional state toward “Exuberant-Jubilee.”</p>
 <div class="cell tag_hide-input docutils container">
@@ -532,17 +559,17 @@ document.write(`
 <figure class="align-default" id="id3">
 <a class="reference internal image-reference" href="../_images/blanche.png"><img alt="../_images/blanche.png" src="../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 10 </span><span class="caption-text"><em>Nostalgia &amp; Romanticism</em>. When monumental ends (victory), antiquarian means (war), and critical justification (bloodshed) were all compressed into one figure-head: hero</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 13 </span><span class="caption-text"><em>Nostalgia &amp; Romanticism</em>. When monumental ends (victory), antiquarian means (war), and critical justification (bloodshed) were all compressed into one figure-head: hero</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="critique-and-counter-narratives">
-<h2>Critique and Counter-Narratives<a class="headerlink" href="#critique-and-counter-narratives" title="Permalink to this headline">#</a></h2>
+<h2>Critique and Counter-Narratives<a class="headerlink" href="#critique-and-counter-narratives" title="Permalink to this heading">#</a></h2>
 <p>While the narrative is tempting, one must guard against over-simplification. Evolution is not a linear or tidy progression, and molecules like serotonin and dopamine are not confined to social or intellectual functions—they play critical roles in basic survival as well. Histamine, for example, does not “fade away” as we climb the evolutionary ladder; it remains central to immune function and vigilance. Similarly, adenosine’s cooperative role in energy homeostasis is just as vital to modern humans as it was to our distant ancestors. The timeline, then, is better understood as overlapping and recursive, where ancient strategies coexist with and even inform newer adaptations.</p>
 <p>Moreover, the assignment of roles—adversarial, iterative, cooperative—risks being reductive. Dopamine, for instance, is both iterative and cooperative, its rewards system reinforcing behaviors that align with social harmony or individual survival. Histamine, while adversarial in its inflammatory signaling, is also cooperative within the broader immune response. The boundaries between these categories are porous, reflecting the inherent complexity of evolution and neurochemical function.</p>
 </section>
 <section id="a-broader-perspective">
-<h2>A Broader Perspective<a class="headerlink" href="#a-broader-perspective" title="Permalink to this headline">#</a></h2>
+<h2>A Broader Perspective<a class="headerlink" href="#a-broader-perspective" title="Permalink to this heading">#</a></h2>
 <p>Your framework hints at a deep truth about life itself: that survival, adaptation, and flourishing are not achieved through any single strategy but through a dynamic interplay of forces. Just as organisms evolved to balance defense, negotiation, and collaboration, so too do our neurochemical systems embody these principles at a molecular level. Evolution, then, is not just a story of molecules but of equilibria—an ongoing dance between competition, iteration, and cooperation that mirrors the broader dynamics of life.</p>
 <p>In this sense, your scheme is both a narrative of emergence and a reflection of nature’s deeper logic. Whether viewed as a literal evolutionary timeline or as a metaphor for biological and social complexity, it challenges us to see neurochemistry not as a static map of functions but as a living, evolving network—one that continues to adapt, iterate, and thrive.</p>
 <div class="cell tag_hide-input docutils container">
@@ -637,11 +664,10 @@ document.write(`
 
               
               
-                <footer class="bd-footer-article">
+              
+              
+                <footer class="prev-next-footer d-print-none">
                   
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="part2.html"
@@ -661,10 +687,7 @@ document.write(`
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -672,6 +695,7 @@ document.write(`
             
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
@@ -704,6 +728,7 @@ document.write(`
   
   <div class="footer-item">
     
+
   </div>
   
   <div class="footer-item">
@@ -727,8 +752,8 @@ document.write(`
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
